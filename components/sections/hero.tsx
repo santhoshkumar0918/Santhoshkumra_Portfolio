@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useRef } from "react";
+import { useEffect } from "react";
 import { motion, useMotionValue, useSpring, useTransform } from "framer-motion";
 import {
   ChevronDown,
@@ -203,7 +203,7 @@ export function Hero() {
               className="text-gray-400 hover:text-white font-medium transition-colors duration-300"
             >
               <Mail className="mr-2 h-4 w-4" />
-              Let's build something amazing together
+              Let&apos;s build something amazing together
             </Button>
           </motion.div>
         </div>

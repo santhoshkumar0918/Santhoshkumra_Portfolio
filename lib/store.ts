@@ -104,7 +104,7 @@ const initialFormData = {
   timeline: "",
 };
 
-export const useContactFormStore = create<ContactFormState>((set, get) => ({
+export const useContactFormStore = create<ContactFormState>((set) => ({
   formData: initialFormData,
   isSubmitting: false,
   submitStatus: "idle",
@@ -198,14 +198,14 @@ export const usePreferencesStore = create<PreferencesState>()(
 interface AnalyticsState {
   events: Array<{
     type: string;
-    data: any;
+    data: unknown;
     timestamp: number;
   }>;
-  addEvent: (type: string, data: any) => void;
+  addEvent: (type: string, data: unknown) => void;
   clearEvents: () => void;
 }
 
-export const useAnalyticsStore = create<AnalyticsState>((set, get) => ({
+export const useAnalyticsStore = create<AnalyticsState>((set) => ({
   events: [],
   addEvent: (type, data) => {
     const event = {

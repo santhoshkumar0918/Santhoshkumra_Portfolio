@@ -2,18 +2,11 @@
 
 import { useState } from "react";
 import { motion } from "framer-motion";
-import {
-  Code,
-  Database,
-  Wrench,
-  Globe,
-  Zap,
-  Terminal,
-  Cloud,
-} from "lucide-react";
+import { Code, Database, Wrench, Globe, Terminal, Cloud } from "lucide-react";
 import { Badge } from "@/components/ui/badge";
 import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
+import Image from "next/image";
 
 const skillCategories = [
   {
@@ -231,7 +224,7 @@ export function Skills() {
                   </div>
 
                   <div className="bg-gray-800/50 rounded-lg p-4">
-                    <img
+                    <Image
                       src="https://ghchart.rshah.org/409ba5/santhoshkumar0918"
                       alt="GitHub Contribution Graph"
                       className="w-full rounded-lg"
@@ -259,7 +252,7 @@ export function Skills() {
                     </p>
                   </div>
 
-                  <img
+                  <Image
                     src="https://github-readme-stats.vercel.app/api?username=santhoshkumar0918&show_icons=true&theme=radical&hide_border=true&bg_color=0d1117"
                     alt="GitHub Stats"
                     className="w-full rounded-lg"
@@ -284,7 +277,7 @@ export function Skills() {
                     <p className="text-gray-400 text-sm">Most used languages</p>
                   </div>
 
-                  <img
+                  <Image
                     src="https://github-readme-stats.vercel.app/api/top-langs/?username=santhoshkumar0918&layout=compact&theme=radical&hide_border=true&bg_color=0d1117"
                     alt="Top Languages"
                     className="w-full rounded-lg"
@@ -309,7 +302,7 @@ export function Skills() {
                     <p className="text-gray-400 text-sm">Commit timeline</p>
                   </div>
 
-                  <img
+                  <Image
                     src="https://github-readme-activity-graph.vercel.app/graph?username=santhoshkumar0918&bg_color=0d1117&color=79ff97&line=00b4d8&point=58a6ff&area=true&hide_border=true"
                     alt="GitHub Activity Graph"
                     className="w-full rounded-lg"
@@ -355,7 +348,8 @@ export function Skills() {
               Ready to build something amazing?
             </h3>
             <p className="text-gray-400 mb-6 max-w-2xl mx-auto">
-              Let's leverage these technologies to create innovative solutions.
+              Let&apos;s leverage these technologies to create innovative
+              solutions.
             </p>
             <Button
               onClick={() =>
@@ -366,7 +360,7 @@ export function Skills() {
               className="bg-gradient-to-r from-purple-600 to-pink-600 hover:from-purple-700 hover:to-pink-700 text-white font-semibold px-8 py-3 rounded-full transition-all duration-300 hover:scale-105"
             >
               <Terminal className="w-5 h-5 mr-2" />
-              Let's Collaborate
+              Let&apos;s Collaborate
             </Button>
           </div>
         </motion.div>
