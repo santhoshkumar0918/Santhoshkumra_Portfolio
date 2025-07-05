@@ -12,7 +12,6 @@ import {
   MapPin,
   Clock,
 } from "lucide-react";
-import { Button } from "@/components/ui/button";
 
 const socialLinks = [
   {
@@ -138,7 +137,7 @@ export function Footer() {
                   href="mailto:santhoshkumarkbsv09@gmail.com"
                   className="hover:text-white transition-colors"
                 >
-                  Let's collaborate
+                  Let&apos;s collaborate
                 </a>
               </div>
             </div>

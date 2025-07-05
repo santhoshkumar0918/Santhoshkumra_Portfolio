@@ -16,7 +16,6 @@ export function ThemeProvider({
   attribute = "class",
   defaultTheme = "dark",
   enableSystem = true,
-  disableTransitionOnChange = false,
 }: ThemeProviderProps) {
   const { theme, setTheme } = useThemeStore();
 

@@ -137,7 +137,7 @@ export function Contact() {
             viewport={{ once: true }}
             className="inline-block px-4 py-2 bg-green-500/10 border border-green-500/20 rounded-full text-sm font-medium text-green-400 backdrop-blur-sm mb-4"
           >
-            📞 Let's Connect
+            📞 Let&apos;s Connect
           </motion.span>
 
           <h2 className="text-4xl sm:text-5xl lg:text-6xl font-black text-white mb-6">
@@ -151,8 +151,8 @@ export function Contact() {
           </h2>
 
           <p className="text-lg sm:text-xl text-gray-400 max-w-2xl mx-auto leading-relaxed">
-            Have a project in mind? Let's discuss how we can bring your vision
-            to life with cutting-edge technology.
+            Have a project in mind? Let&apos;s discuss how we can bring your
+            vision to life with cutting-edge technology.
           </p>
         </motion.div>
 

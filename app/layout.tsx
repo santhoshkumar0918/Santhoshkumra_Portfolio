@@ -16,6 +16,8 @@ const jetbrainsMono = JetBrains_Mono({
 });
 
 export const metadata = {
+  metadataBase: new URL("https://santhoshkumar-lime.vercel.app"), // Your domain
+
   title: "Santhosh Kumar | Full-Stack Web3 Developer",
   description:
     "Premium Web3 development services - Building tomorrow's digital infrastructure with cutting-edge blockchain technology",
